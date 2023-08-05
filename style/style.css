@@ -12,7 +12,7 @@ body {
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  /* background-image: url(/assets/background.jpg); */
+  background-image: url(/assets/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,7 +87,7 @@ body {
   position: absolute;
   margin-left: 17px;
   z-index: 1;
-  bottom: 60px;
+  bottom: 40px;
 }
 
 .register-container p {
@@ -97,7 +97,7 @@ body {
 }
 
 .register-container h1 {
-  bottom: 250px;
+  bottom: 228px;
   position: absolute;
   z-index: 1;
   margin-left: 40px;
@@ -114,7 +114,8 @@ body {
   margin-right: 100px;
   margin-top: 50px;
   font-size: 18px;
-  bottom: -15px;
+  bottom: -40px;
+  margin-left: 60px;
 }
 
 .register-container .btn-signup {
@@ -134,7 +135,7 @@ body {
   margin-left: 0px;
   width: 270px;
   height: 30px;
-  bottom: 13px;
+  bottom: -1px;
   background-color: #4682a9;
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -144,7 +145,7 @@ body {
 .sosial-signup .menu img {
   width: 40px;
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 45px;
   z-index: 3;
 }
 
@@ -169,7 +170,7 @@ body {
 .container-login {
   position: relative;
   margin-left: 50px;
-  bottom: 115px;
+  bottom: 85px;
 }
 
 .menu-login .input-login input {
@@ -185,7 +186,7 @@ body {
 
 .container-login h1 {
   position: absolute;
-  bottom: 134px;
+  bottom: 122px;
   z-index: 8;
   margin-left: 60px;
 }
@@ -210,7 +211,7 @@ body {
 .menu-login .pw img {
   width: 24px;
   position: absolute;
-  margin-left: 250px;
+  margin-left: 255px;
   top: 44px;
   z-index: 3;
   cursor: pointer;
@@ -223,7 +224,7 @@ body {
   margin-left: 15px;
   align-items: baseline;
   gap: 0.4em;
-  margin-top: -5px;
+  margin-top: 11px;
 }
 
 .container-login .remember1 span {
