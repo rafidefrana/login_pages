@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style css -->
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <title>login pages</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+        <div class="register-container">
+          <form action="#" id="form-register">
+          <h1>Register Here</h1>
+          <div class="menu-signup">
+          <div class="user-icon"><i class="fa fa-user"></i></div>
+          <input type="text" placeholder="Username" required />
+          <div class="fa fa-envelope" id="email-icon"></div>
+            <input type="email" placeholder="Email" />
+            <div class="pass-lock2"><div class="fa fa-lock"></div></div>
+            <div class="pw">
+              <input
+              type="password"
+              id="password"
+              placeholder="Enter your password..." />
+            <button type="button" id="show-passwd">
+              <img src="/assets/eye_open.svg" alt="Show Password" />
+            </button>
+            </div>
+          </div>
+          <div class="aggree">
+          <div class="checkbox1"><input type="checkbox" />
+            <span> Agree Terms n Service ! </span></div>
+          </div>
+          <button class="btn-signup" id="btn-signup">
+            Register
+          </button>
+        </form>
+    <div class="container-media">
+      <p>Or use your acoount</p>
+        <div class="sosial-signup">
+        <div class="menu">
+            <a href="#"><img src="/assets/Fb.jpg" alt="fb" /></a>
+            <a href="#"><img src="/assets/google.png" alt="google" /></a>
+            <a href="#"><img src="/assets/github.png" alt="Github" /></a>
+            
+        </div>
+      
+      </div>
+    </div>
+  </div>
+    <div class="container-login">
+      <form action="#">
+        <h1>Login Here</h1>
+        <div class="menu-login">
+          <div class="input-login">
+          <div class="email-icon"> <div class="fa fa-envelope" id="email-icon"></div> </div>
+          <input type="email" placeholder="Email" required />
+          <div class="pass-lock"> <div class="fa fa-lock"> </div></div>
+          <div class="pw">
+            <input
+            type="password"
+            id="passwords"
+            placeholder="Enter your password..." />
+          <button type="button" id="show-passwds">
+            <img src="/assets/eye_open.svg" alt="Show Password" />
+          </button>
+          </div>
+          </div>
+        </div>
+        <div class="remember1">
+        <input type="checkbox" class="remember" />
+        <span class="span1"> Remember Me <div class="pass-link"> 
+          <a href="#">Forgot password?</a></div></span>
+        </div>
+          <button class="btn-login">
+            Login
+          </button>
+  
+        <span class="user"><p>Use your account</p> </span>
+        <div class="sosial-login">
+          <div class="menu">
+            <a href=""><img src="/assets/Fb.jpg" alt="fb" /></a>
+            <a href=""><img src="/assets/google.png" alt="google" /></a>
+            <a href=""><img src="/assets/github.png" alt="Github" /></a>
+            <a href="#" class="link" id="link"><h3>Register</h3></a>
+
+          </div>
+        </div>
+        </div>
+      
+      </form>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1 class="title">Hello <br> Friends</h1>
+          <p>if Yout have an account,login here and have fun</p>
+          <button class="ghost" id="login">Login
+          </button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1 class="title">Start Explore <br> Anime Now</h1>
+          <p>if you don't have an account yet,<br>join us now.</p>
+          <button class="ghost1" id="register">Register
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/showpassword.js"></script>
+  </body>
+</html>
